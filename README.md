@@ -37,10 +37,15 @@ Disclaimer: The views and opinions expressed in community and partner examples d
 
 | API | Description | Example usage |
 | --- | --- | --- |
-| Chat | Build assistants using Solar Mini Chat | [Link](https://developers.upstage.ai/docs/apis/chat) |
-| Text Embedding | Embed strings to vectors | [Link](https://developers.upstage.ai/docs/apis/embeddings) |
-| Groundedness Check | Verify groundedness of assistant's response | [Link](https://developers.upstage.ai/docs/apis/groundedness-check) |
-| Layout Analysis | Serialize documents with tables and figures | [Link](https://developers.upstage.ai/docs/apis/layout-analysis) |
+| Chat | Build assistants using Solar Mini Chat. | [Link](https://developers.upstage.ai/docs/apis/chat) |
+| Text Embedding | Embed strings to vectors. | [Link](https://developers.upstage.ai/docs/apis/embeddings) |
+| Translation | Context-aware translation that leverages previous dialogues to ensure unmatched coherence and continuity in your conversations. | [Link](https://developers.upstage.ai/docs/apis/translation) | 
+| Groundedness Check | Verify groundedness of assistant's response. | [Link](https://developers.upstage.ai/docs/apis/groundedness-check) |
+| Layout Analysis | Serialize documents with tables and figures. | [Link](https://developers.upstage.ai/docs/apis/layout-analysis) |
+| Key Information Extraction | Extract key information from target documents. | [Link](https://developers.upstage.ai/docs/apis/extraction) | 
+| Document OCR | Extract all text from any document. | [Link](https://developers.upstage.ai/docs/apis/document-ocr) | 
+ 
+
 
   
 ## Cookbook List
