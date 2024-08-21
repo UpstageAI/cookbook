@@ -6,7 +6,7 @@ The Solar framework by Upstage provides a comprehensive suite of exercises desig
 
 # Table of Contents
 
-## Introduction and Fundamentals of Generative AI
+## Introduction and Fundamentals of Generative AI 
 
 **1/ Hello Solar**
 
@@ -24,19 +24,23 @@ The Solar framework by Upstage provides a comprehensive suite of exercises desig
 
 **Enhancing Output Reliability**: Implement CAG and GC techniques to generate credible, well-grounded responses from the language model.
 
+----
+
+## Developing an End-to-End RAG Solution 
+
 ### VetctorDB
 
-**5-1/ Vectorspace_ChromaDB**
+**5-1/ ChromaDB**
 
 **Creating Vectorspaces and Retrieval Objects**: Utilize ChromaDB to embed documents, create a vectorspace, and conduct efficient query searches.
 
-**5-2/ Semantic Search_MongoDB**
+**5-2/ MongoDB**
 
 **Conducting Hybrid Searches**: Implement MongoDB for embedding, retrieval, and conducting advanced hybrid searches using Atlas Index.
 
-**5-3/ LLM chain_OracleDB**
+**5-3/ OracleDB**
 
-Building an LLM Chain: Learn how to use OracleDB for embedding and retrieval, and create an LLM Chain integrated with a Retriever object.
+**Building an LLM Chain**: Learn how to use OracleDB for embedding and retrieval, and create an LLM Chain integrated with a Retriever object.
 
 ### Layout Analysis
 
@@ -58,11 +62,15 @@ Building an LLM Chain: Learn how to use OracleDB for embedding and retrieval, an
 
 **Advanced Retrieval Techniques**: Incorporate intelligent retrieval mechanisms to enhance RAG with more relevant and high-quality information.
 
-## Applications and Integration
-
 **10/ Tool Retrieval-Augmented Generation (Tool RAG)**
 
 **Integrating External Tools**: Use Tool-RAG to refine and augment information retrieval and generation with external tools.
+
+----
+
+## Applications and Integration
+
+### Common Applications of LLM
 
 **11/ Summary with Translation**
 
@@ -70,13 +78,13 @@ Building an LLM Chain: Learn how to use OracleDB for embedding and retrieval, an
 
 **12/ Chat with History**
 
-**Managing Conversations with Context**: Develop a question-answering system that uses conversation history to generate contextually appropriate responses.
+**Managing Conversations with Context**: Develop a question-answering system that uses conversation history to generate contextually appropriate responses. 
 
-**80/ Gradio Integration**
+### 80/ Gradio Integration**
 
-**Building Web Interfaces with Gradio**: Create simple and intuitive web applications using Gradio for interactive model deployment. 
+**80/ Building Web Interfaces with Gradio**: Create simple and intuitive web applications using Gradio for interactive model deployment. 
 
-**Real-Time Response Streaming**: Implement a RAG system with Gradio to handle real-time interactions and response streaming. 
+**81/ Real-Time Response Streaming**: Implement a RAG system with Gradio to handle real-time interactions and response streaming. 
 
-**Comprehensive RAG System for PDFs**: Use Gradio and RAG techniques to process PDF documents and generate real-time, interactive responses.
+**82/ Comprehensive RAG System for PDFs**: Use Gradio and RAG techniques to process PDF documents and generate real-time, interactive responses.
 
