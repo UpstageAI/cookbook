@@ -80,7 +80,7 @@ The Solar framework by Upstage provides a comprehensive suite of exercises desig
 
 **Managing Conversations with Context**: Develop a question-answering system that uses conversation history to generate contextually appropriate responses. 
 
-### 80/ Gradio Integration**
+### 80/ Gradio Integration
 
 **80/ Building Web Interfaces with Gradio**: Create simple and intuitive web applications using Gradio for interactive model deployment. 
 
