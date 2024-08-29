@@ -86,4 +86,3 @@ fi**Summarization and Translation using Solar API**: Leverage the Solar API for 
 **81/ Real-Time Response Streaming**: Implement a RAG system with Gradio to handle real-time interactions and response streaming. 
 
 **82/ Comprehensive RAG System for PDFs**: Use Gradio and RAG techniques to process PDF documents and generate real-time, interactive responses.
-
