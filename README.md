@@ -38,7 +38,7 @@ Submit your examples, codes, and other works to the `cookbooks/community` folder
 Let us know if you need any other guidelines or have additional criteria to include! We’re happy to continue iterating on these submission rules.
 
 Disclaimer: The views and opinions expressed in community and partner examples do not reflect those of Upstage.
-  
+
 
 ### API List
 
@@ -51,10 +51,10 @@ Disclaimer: The views and opinions expressed in community and partner examples d
 | Layout Analysis | Serialize documents with tables and figures. | [Link](https://developers.upstage.ai/docs/apis/layout-analysis) |
 | Key Information Extraction | Extract key information from target documents. | [Link](https://developers.upstage.ai/docs/apis/extraction) | 
 | Document OCR | Extract all text from any document. | [Link](https://developers.upstage.ai/docs/apis/document-ocr) | 
- 
 
 
-  
+
+
 ## Cookbook List
 
 | Category | Notebook | Description |
