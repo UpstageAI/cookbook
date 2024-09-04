@@ -7,7 +7,7 @@ import reflex as rx
 import requests
 
 from ..templates import template
-from .utils import convert_local_image_paths, is_url, strip_ansi_codes
+from .utils import convert_local_image_paths, is_url, strip_ansi_codes, format_code_lint
 
 BASE_RAW_PATH = os.path.join(os.getcwd(), "cookbooks", "upstage")
 BASE_IMAGE_PATH = "https://raw.githubusercontent.com/UpstageAI/cookbook/main/cookbooks/upstage/Solar-Full-Stack%20LLM-101"
@@ -53,7 +53,7 @@ def _style_cell(cell: dict, image_base_path: Optional[str]) -> rx.Component:
     if cell_type == "code":
         components.append(
             rx.code_block(
-                content,
+                format_code_lint(content),
                 language="python",
                 show_line_numbers=True,
                 can_copy=True,

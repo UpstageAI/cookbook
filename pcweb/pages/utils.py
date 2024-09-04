@@ -2,6 +2,9 @@ import os
 import re
 from typing import Optional
 
+import black
+import isort
+
 
 def to_solar_path(path: str) -> str:
     return os.path.join("Solar-Full-Stack LLM-101", path)
@@ -40,3 +43,11 @@ def convert_local_image_paths(
 def strip_ansi_codes(text: str) -> str:
     ansi_escape = re.compile(r"\x1B[@-_][0-?]*[ -/]*[@-~]|[-]")
     return ansi_escape.sub("", text)
+
+
+def format_code_lint(code: str) -> str:
+    try:
+        isorted_code = isort.code(code=code)
+        return black.format_str(isorted_code, mode=black.Mode())
+    except Exception:
+        return code
