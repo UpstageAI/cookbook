@@ -21,18 +21,17 @@ def is_url(path) -> bool:
     return re.match(url_pattern, path) is not None
 
 
-def _replace_local_path(match: re.Pattern, image_base_path: str) -> str:
-    alt_text = match.group(1)
-    local_path = match.group(2).lstrip("./")
-    global_url = os.path.join(image_base_path, local_path)
-    return f"![{alt_text}]({global_url})"
-
-
 def convert_local_image_paths(
     markdown_text: str, image_base_path: Optional[str]
 ) -> str:
     if image_base_path is None:
         return markdown_text
+
+    def _replace_local_path(match: re.Pattern) -> str:
+        alt_text = match.group(1)
+        local_path = match.group(2).lstrip("./")
+        global_url = os.path.join(image_base_path, local_path)
+        return f"![{alt_text}]({global_url})"
 
     local_image_pattern = re.compile(r"!\[([^\]]*)\]\(([^http][^\)]+)\)")
     return local_image_pattern.sub(_replace_local_path, markdown_text)
