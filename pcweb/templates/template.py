@@ -32,7 +32,7 @@ def template(
     script_tags: Optional[list[rx.Component]] = None,
     on_load: Optional[Union[rx.event.EventHandler, List[rx.event.EventHandler]]] = None,
 ) -> Callable[[Callable[[], rx.Component]], rx.Component]:
-    if route:
+    if route.lstrip("/"):
         title = f"{title} | {route.lstrip("/")}"
 
     def decorator(page_content: Callable[[], rx.Component]) -> rx.Component:
