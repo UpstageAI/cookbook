@@ -7,7 +7,7 @@ import isort
 
 
 def to_solar_path(path: str) -> str:
-    return os.path.join("Solar-Full-Stack LLM-101", path)
+    return os.path.join("Solar-Fullstack-LLM-101", path)
 
 
 def is_url(path) -> bool:

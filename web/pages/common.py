@@ -7,10 +7,12 @@ import reflex as rx
 import requests
 
 from ..templates import template
-from .utils import convert_local_image_paths, is_url, strip_ansi_codes, format_code_lint
+from .utils import convert_local_image_paths, format_code_lint, is_url, strip_ansi_codes
 
-BASE_RAW_PATH = os.path.join(os.getcwd(), "cookbooks", "upstage")
-BASE_IMAGE_PATH = "https://raw.githubusercontent.com/UpstageAI/cookbook/main/cookbooks/upstage/Solar-Full-Stack%20LLM-101"
+BASE_RAW_PATH = os.getcwd()
+BASE_IMAGE_PATH = (
+    "https://raw.githubusercontent.com/UpstageAI/cookbook/main/Solar-Fullstack-LLM-101/"
+)
 
 
 def _read_jupyter(path: str) -> List[Dict]:

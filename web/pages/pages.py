@@ -6,9 +6,7 @@ from .common import create_route_component
 from .utils import to_solar_path
 
 # index
-index = create_route_component(
-    route="/", file_path=os.path.join(os.pardir, os.pardir, "README.md")
-)
+index = create_route_component(route="/", file_path="README.md")
 
 # upstage
 function_calling = create_route_component(
