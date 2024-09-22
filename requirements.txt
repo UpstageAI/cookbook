@@ -1,0 +1,4 @@
+reflex>=0.5.10
+plotly>=5.24.0
+isort>=5.13.2
+black>=24.8.0

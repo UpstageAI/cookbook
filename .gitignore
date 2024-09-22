@@ -1,6 +1,12 @@
-.env
+*.db
+*.py[cod]
 .DS_Store
-local_cache
-.venv
+.env
 .ipynb_checkpoints
+.venv
+.web
 __pycache__/
+assets/external/
+local_cache
+poetry.lock
+pyproject.toml
