@@ -1,7 +1,8 @@
 import json
+import logging
 import os
 from typing import Dict, List, Optional
-import logging
+
 import plotly.graph_objs as go
 import reflex as rx
 import requests
@@ -10,9 +11,8 @@ from ..templates import template
 from .utils import convert_local_image_paths, format_code_lint, is_url, strip_ansi_codes
 
 BASE_RAW_PATH = os.getcwd()
-BASE_IMAGE_PATH = (
-    "https://raw.githubusercontent.com/UpstageAI/cookbook/main/"
-)
+BASE_IMAGE_PATH = "https://raw.githubusercontent.com/UpstageAI/cookbook/main/"
+
 
 def _read_jupyter(path: str) -> List[Dict]:
     if is_url(path=path):
@@ -101,7 +101,9 @@ def create_route_component(route: str, file_path: str, **kwargs) -> rx.Component
             _file_path = os.path.abspath(os.path.join(BASE_RAW_PATH, file_path))
             if file_path.endswith(".ipynb"):
                 try:
-                    return read_jupyter(path=_file_path, image_base_path=BASE_IMAGE_PATH)
+                    return read_jupyter(
+                        path=_file_path, image_base_path=BASE_IMAGE_PATH
+                    )
                 except Exception as e:
                     logging.exception(str(e))
 
