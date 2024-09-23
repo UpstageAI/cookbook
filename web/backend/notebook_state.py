@@ -7,16 +7,13 @@ class NotebookState(rx.State):
     """{text on link: router path}"""
 
     # Upstage
-    Upstage: Dict[str, str] = {
-        "function_calling": "function_calling",
-        "financial_analysis": "financial_analysis",
-        "how_to_count_token": "how_to_count_token",
-        "llamaindex_rag": "llamaindex_rag",
-        "upstage": "upstage",
-    }
-
-    # LangGraph
-    LangGraph_Self_RAG: Dict[str, str] = {"langgraph_self_rag": "langgraph_self_rag"}
+    # Upstage: Dict[str, str] = {
+    #     "function_calling": "function_calling",
+    #     "financial_analysis": "financial_analysis",
+    #     "how_to_count_token": "how_to_count_token",
+    #     "llamaindex_rag": "llamaindex_rag",
+    #     "upstage": "upstage",
+    # }
 
     # Solar Full stack LLM
     Solar_LLM: Dict[str, str] = {
@@ -25,8 +22,14 @@ class NotebookState(rx.State):
         "prompt_engineering": "prompt_engineering",
         "summary_writing_translation": "summary_writing_translation",
         "chat_with_history": "chat_with_history",
-        "all_edu": "all_edu",
+        "docvision": "docvision",
+        "reasoning": "reasoning",
+        "auto_marketing": "auto_marketing",
+        "auto_filling": "auto_filling",
+        "contract_advising": "contract_advising",
+        "fact_check_with_kg": "fact_check_with_kg",
         "all": "all",
+        "all_edu": "all_edu",
     }
 
     Solar_RAG: Dict[str, str] = {
@@ -39,6 +42,7 @@ class NotebookState(rx.State):
         "LA_CAG": "LA_CAG",
         "RAG": "RAG",
         "Smart_RAG": "Smart_RAG",
+        "langgraph_self_rag": "langgraph_self_rag",
         "tool_RAG": "tool_RAG",
     }
 

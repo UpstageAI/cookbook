@@ -1,7 +1,7 @@
 import json
 import os
 from typing import Dict, List, Optional
-
+import logging
 import plotly.graph_objs as go
 import reflex as rx
 import requests
@@ -11,9 +11,8 @@ from .utils import convert_local_image_paths, format_code_lint, is_url, strip_an
 
 BASE_RAW_PATH = os.getcwd()
 BASE_IMAGE_PATH = (
-    "https://raw.githubusercontent.com/UpstageAI/cookbook/main/Solar-Fullstack-LLM-101/"
+    "https://raw.githubusercontent.com/UpstageAI/cookbook/main/"
 )
-
 
 def _read_jupyter(path: str) -> List[Dict]:
     if is_url(path=path):
@@ -101,15 +100,21 @@ def create_route_component(route: str, file_path: str, **kwargs) -> rx.Component
         try:
             _file_path = os.path.abspath(os.path.join(BASE_RAW_PATH, file_path))
             if file_path.endswith(".ipynb"):
-                return read_jupyter(path=_file_path, image_base_path=BASE_IMAGE_PATH)
+                try:
+                    return read_jupyter(path=_file_path, image_base_path=BASE_IMAGE_PATH)
+                except Exception as e:
+                    logging.exception(str(e))
 
             if file_path.endswith(".md"):
-                return rx.markdown(
-                    convert_local_image_paths(
-                        markdown_text=read_markdown(path=_file_path),
-                        image_base_path=BASE_IMAGE_PATH,
+                try:
+                    return rx.markdown(
+                        convert_local_image_paths(
+                            markdown_text=read_markdown(path=_file_path),
+                            image_base_path=BASE_IMAGE_PATH,
+                        )
                     )
-                )
+                except Exception as e:
+                    logging.exception(str(e))
             return rx.markdown("")
         except Exception as e:
             rx.markdown(str(e))

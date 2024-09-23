@@ -8,36 +8,27 @@ from .utils import to_solar_path
 # index
 index = create_route_component(route="/", file_path="README.md")
 
-# upstage
-function_calling = create_route_component(
-    route="/function_calling",
-    file_path="function_calling.ipynb",
-)
-financial_analysis = create_route_component(
-    route="/financial_analysis",
-    file_path="financial_analysis.ipynb",
-)
-how_to_count_token = create_route_component(
-    route="/how_to_count_token",
-    file_path="how_to_count_token.ipynb",
-)
-llamaindex_rag = create_route_component(
-    route="/llamaindex_rag",
-    file_path="llamaindex_rag.ipynb",
-)
-upstage = create_route_component(
-    route="/upstage",
-    file_path="upstage.ipynb",
-)
-
-# upstage/langgraph
-langgraph_self_rag = create_route_component(
-    route="/langgraph_self_rag",
-    file_path=os.path.join(
-        "LangGraph-Self-RAG",
-        "langgraph_self_rag.ipynb",
-    ),
-)
+# root
+# function_calling = create_route_component(
+#     route="/function_calling",
+#     file_path="function_calling.ipynb",
+# )
+# financial_analysis = create_route_component(
+#     route="/financial_analysis",
+#     file_path="financial_analysis.ipynb",
+# )
+# how_to_count_token = create_route_component(
+#     route="/how_to_count_token",
+#     file_path="how_to_count_token.ipynb",
+# )
+# llamaindex_rag = create_route_component(
+#     route="/llamaindex_rag",
+#     file_path="llamaindex_rag.ipynb",
+# )
+# upstage = create_route_component(
+#     route="/upstage",
+#     file_path="upstage.ipynb",
+# )
 
 # upstage/solar-hull-stack-llm-101
 readme = create_route_component(
@@ -86,7 +77,11 @@ rag = create_route_component(
 )
 smart_rag = create_route_component(
     route="/Smart_RAG",
-    file_path=to_solar_path("09_Smart_RAG.ipynb"),
+    file_path=to_solar_path("09_1_Smart_RAG.ipynb"),
+)
+langgraph_self_rag = create_route_component(
+    route="/langgraph_self_rag",
+    file_path=to_solar_path("09_2_langgraph_self_RAG.ipynb"),
 )
 tool_rag = create_route_component(
     route="/tool_RAG",
@@ -99,6 +94,30 @@ summary_writing_translation = create_route_component(
 chat_with_history = create_route_component(
     route="/chat_with_history",
     file_path=to_solar_path("12_chat_with_history.ipynb"),
+)
+docvision = create_route_component(
+    route="/docvision",
+    file_path=to_solar_path("13_docvision.ipynb"),
+)
+reasoning = create_route_component(
+    route="/reasoning",
+    file_path=to_solar_path("14_Reasoning.ipynb"),
+)
+auto_marketing = create_route_component(
+    route="/auto_marketing",
+    file_path=to_solar_path("15_auto_marketing.ipynb"),
+)
+auto_filling = create_route_component(
+    route="/auto_filling",
+    file_path=to_solar_path("16_auto_filling.ipynb"),
+)
+contract_advising = create_route_component(
+    route="/contract_advising",
+    file_path=to_solar_path("17_contract_advising.ipynb"),
+)
+fact_check_with_kg = create_route_component(
+    route="/fact_check_with_kg",
+    file_path=to_solar_path("18_fact_check_with_kg.ipynb"),
 )
 gradio = create_route_component(
     route="/gradio",
