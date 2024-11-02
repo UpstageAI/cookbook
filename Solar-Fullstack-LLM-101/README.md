@@ -1,6 +1,6 @@
 # Overview
 
-![Overview](./figures/overview.png)
+![Overview](../figures/overview.png)
 
 The Solar framework by Upstage provides a comprehensive suite of exercises designed to equip users with the skills needed to effectively utilize large language models (LLMs) across a variety of applications. Starting with foundational concepts like setup and prompt engineering, the tutorials progress through advanced techniques such as managing hallucinations, implementing Credibility-Aware Generation (CAG), and conducting Retrieval-Augmented Generation (RAG) using various database systems like ChromaDB, MongoDB, and OracleDB. The exercises also explore innovative methods like Smart RAG and Tool-RAG to enhance retrieval accuracy and generation relevance. Additionally, Solar offers integration with Gradio to build user-friendly web interfaces for interactive applications, including real-time streaming and PDF-based RAG systems. Through these exercises, users gain a deep understanding of the Solar framework's capabilities, enabling them to create reliable, contextually accurate, and user-centric language model applications.
 
