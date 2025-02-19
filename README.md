@@ -7,14 +7,9 @@ This cookbook aims to highlight innovative use cases and outputs created by leve
 
 Get an API key from Upstage console to try examples in the cookbook. Set the environment variable `UPSTAGE_API_KEY` with your key, or create an `.env` file with the key.
 
-### Contents
-
-- The `cookbooks/upstage` directory contains official examples provided by Upstage.
-- The `cookbooks/community` directory contains community examples provided by any contributors.
 
 ### Submission Guidelines
 
-Submit your examples, codes, and other works to the `cookbooks/community` folder.
 
 **Content:**
 
@@ -46,9 +41,9 @@ Disclaimer: The views and opinions expressed in community and partner examples d
 | --- | --- | --- |
 | Chat | Build assistants using Solar Mini Chat. | [Link](https://developers.upstage.ai/docs/apis/chat) |
 | Text Embedding | Embed strings to vectors. | [Link](https://developers.upstage.ai/docs/apis/embeddings) |
+| Document Parse | Serialize documents with tables and figures. | [Link](https://developers.upstage.ai/docs/apis/document-parse) |
 | Translation | Context-aware translation that leverages previous dialogues to ensure unmatched coherence and continuity in your conversations. | [Link](https://developers.upstage.ai/docs/apis/translation) | 
 | Groundedness Check | Verify groundedness of assistant's response. | [Link](https://developers.upstage.ai/docs/apis/groundedness-check) |
-| Layout Analysis | Serialize documents with tables and figures. | [Link](https://developers.upstage.ai/docs/apis/layout-analysis) |
 | Key Information Extraction | Extract key information from target documents. | [Link](https://developers.upstage.ai/docs/apis/extraction) | 
 | Document OCR | Extract all text from any document. | [Link](https://developers.upstage.ai/docs/apis/document-ocr) | 
 
