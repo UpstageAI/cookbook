@@ -55,6 +55,6 @@ For more information, visit https://console.upstage.ai
 | Notebook | Description |
 | --- | --- |
 | [Solar-Full-Stack LLM-101](https://github.com/UpstageAI/cookbook/blob/main/Solar-Fullstack-LLM-101) | This notebooks includes a comprehensive suite of exercises designed to equip users with the skills needed to effectively utilize large language models (LLMs) across a variety of applications. |
-| [LangGraph-Self-RAG](https://github.com/UpstageAI/cookbook/blob/main/LangGraph-Self-RAG/langgraph_self_rag.ipynb) | This notebook provides a comprehensive guide on implementing Self Retrieval-Augmented-Generation (Self-RAG) using LangGraph. It demonstrates how to enhance text generation by integrating self-retrieval mechanisms, allowing the model to dynamically fetch relevant information to improve accuracy and relevance.  |
+| [Upstage features](https://github.com/UpstageAI/cookbook/blob/main/upstage.ipynb) | This notebook can be used to experiment with Upstage's APIs.  |
 | [Function calling](https://github.com/UpstageAI/cookbook/blob/main/function_calling.ipynb) | This notebook provides the most basic way to use function calling. |
-| [LlamaIndex RAG](https://github.com/UpstageAI/cookbook/blob/main/llamaindex_rag.ipynb) | In this notebook provides a comprehensive way to build a Retrieval-Augmented-Generation using the llama-index Upstage integration package. |
+| [LlamaIndex RAG](https://github.com/UpstageAI/cookbook/blob/main/llamaindex_rag.ipynb) | This notebook provides a comprehensive way to build a Retrieval-Augmented-Generation using the llama-index Upstage integration package. |
