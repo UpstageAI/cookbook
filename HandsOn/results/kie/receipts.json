@@ -1,0 +1,240 @@
+{
+    "apiVersion": "1.1",
+    "confidence": 0.6317,
+    "documentType": "receipt",
+    "fields": [
+        {
+            "id": 0,
+            "key": "group_0",
+            "properties": [
+                {
+                    "confidence": 0.4803,
+                    "id": 1,
+                    "key": "group_0/menu.product_name",
+                    "refinedValue": "2xLatte Macchiato CHF",
+                    "type": "content",
+                    "value": "2xLatte Macchiato CHF"
+                },
+                {
+                    "confidence": 0.96,
+                    "id": 2,
+                    "key": "group_0/menu.unit_product_price",
+                    "refinedValue": "4.50",
+                    "type": "content",
+                    "value": "4. 50"
+                },
+                {
+                    "confidence": 0.9748,
+                    "id": 3,
+                    "key": "group_0/menu.unit_product_total_price_before_discount",
+                    "refinedValue": "9.00",
+                    "type": "content",
+                    "value": "9. 00"
+                }
+            ],
+            "refinedValue": "",
+            "type": "group",
+            "value": "2xLatte Macchiato CHF 4. 50 9. 00"
+        },
+        {
+            "id": 4,
+            "key": "group_0",
+            "properties": [
+                {
+                    "confidence": 0.3959,
+                    "id": 5,
+                    "key": "group_0/menu.product_name",
+                    "refinedValue": "1xGloki CHF",
+                    "type": "content",
+                    "value": "1xGloki CHF"
+                },
+                {
+                    "confidence": 0.9815,
+                    "id": 6,
+                    "key": "group_0/menu.unit_product_price",
+                    "refinedValue": "5.00",
+                    "type": "content",
+                    "value": "5. 00"
+                },
+                {
+                    "confidence": 0.9729,
+                    "id": 7,
+                    "key": "group_0/menu.unit_product_total_price_before_discount",
+                    "refinedValue": "5.00",
+                    "type": "content",
+                    "value": "5.00"
+                }
+            ],
+            "refinedValue": "",
+            "type": "group",
+            "value": "1xGloki CHF 5. 00 5.00"
+        },
+        {
+            "id": 8,
+            "key": "group_0",
+            "properties": [
+                {
+                    "confidence": 0.3179,
+                    "id": 9,
+                    "key": "group_0/menu.product_name",
+                    "refinedValue": "1xSchweinschnitzel CHF",
+                    "type": "content",
+                    "value": "1xSchweinschnitzel CHF"
+                },
+                {
+                    "confidence": 0.9903,
+                    "id": 10,
+                    "key": "group_0/menu.unit_product_price",
+                    "refinedValue": "22.00",
+                    "type": "content",
+                    "value": "22.00"
+                },
+                {
+                    "confidence": 0.9924,
+                    "id": 11,
+                    "key": "group_0/menu.unit_product_total_price_before_discount",
+                    "refinedValue": "22.00",
+                    "type": "content",
+                    "value": "22.00"
+                }
+            ],
+            "refinedValue": "",
+            "type": "group",
+            "value": "1xSchweinschnitzel CHF 22.00 22.00"
+        },
+        {
+            "id": 12,
+            "key": "group_0",
+            "properties": [
+                {
+                    "confidence": 0.2402,
+                    "id": 13,
+                    "key": "group_0/menu.product_name",
+                    "refinedValue": "1xChasspatzli CHF",
+                    "type": "content",
+                    "value": "1xChasspatzli CHF"
+                },
+                {
+                    "confidence": 0.9787,
+                    "id": 14,
+                    "key": "group_0/menu.unit_product_price",
+                    "refinedValue": "18.50",
+                    "type": "content",
+                    "value": "18. 50"
+                },
+                {
+                    "confidence": 0.979,
+                    "id": 15,
+                    "key": "group_0/menu.unit_product_total_price_before_discount",
+                    "refinedValue": "18.50",
+                    "type": "content",
+                    "value": "18.50"
+                }
+            ],
+            "refinedValue": "",
+            "type": "group",
+            "value": "1xChasspatzli CHF 18. 50 18.50"
+        },
+        {
+            "confidence": 0.5412,
+            "id": 16,
+            "key": "store.branch_name",
+            "refinedValue": "Ber",
+            "type": "content",
+            "value": "Ber"
+        },
+        {
+            "confidence": 0.7498,
+            "id": 17,
+            "key": "store.store_name",
+            "refinedValue": "Gr osse Sche idegg",
+            "type": "content",
+            "value": "Gr osse Sche idegg"
+        },
+        {
+            "confidence": 0.9223,
+            "id": 18,
+            "key": "total.charged_price",
+            "refinedValue": "Total",
+            "type": "header",
+            "value": "Total"
+        },
+        {
+            "confidence": 0.9491,
+            "id": 19,
+            "key": "total.charged_price",
+            "refinedValue": "54.50",
+            "type": "content",
+            "value": "CHF 54 50"
+        },
+        {
+            "confidence": 0.0427,
+            "id": 20,
+            "key": "total.tax_rate",
+            "refinedValue": "Incl. MwSt",
+            "type": "header",
+            "value": "Incl. MwSt"
+        },
+        {
+            "confidence": 0.9665,
+            "id": 21,
+            "key": "total.tax_rate",
+            "refinedValue": "7.6%",
+            "type": "content",
+            "value": "7. 6%"
+        },
+        {
+            "confidence": 0.6727,
+            "id": 22,
+            "key": "total.card_payment_price",
+            "refinedValue": "54.50",
+            "type": "content",
+            "value": "54. 50"
+        },
+        {
+            "confidence": 0.0648,
+            "id": 23,
+            "key": "total.tax_price",
+            "refinedValue": "3.85.33",
+            "type": "content",
+            "value": "3. 85 . 33"
+        },
+        {
+            "confidence": 0.0372,
+            "id": 24,
+            "key": "total.card_payment_price",
+            "refinedValue": "Entspricht in Euro",
+            "type": "header",
+            "value": "Entspricht in Euro"
+        },
+        {
+            "confidence": 0.1089,
+            "id": 25,
+            "key": "store.store_phone_number",
+            "refinedValue": "Te | ##ax.",
+            "type": "header",
+            "value": "Te | ##ax."
+        },
+        {
+            "confidence": 0.8888,
+            "id": 26,
+            "key": "store.store_phone_number",
+            "refinedValue": "033 853 67 16",
+            "type": "content",
+            "value": "033 853 67 16"
+        }
+    ],
+    "metadata": {
+        "pages": [
+            {
+                "height": 3264,
+                "page": 1,
+                "width": 2448
+            }
+        ]
+    },
+    "mimeType": "multipart/form-data",
+    "modelVersion": "receipt-extraction-3.2.0",
+    "numBilledPages": 1,
+    "stored": false
+}
