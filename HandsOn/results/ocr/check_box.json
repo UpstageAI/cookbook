@@ -1,0 +1,804 @@
+{
+    "apiVersion": "1.1",
+    "confidence": 0.9723,
+    "metadata": {
+        "pages": [
+            {
+                "height": 608,
+                "page": 1,
+                "width": 1460
+            }
+        ]
+    },
+    "mimeType": "multipart/form-data",
+    "modelVersion": "ocr-2.2.1",
+    "numBilledPages": 1,
+    "pages": [
+        {
+            "confidence": 0.9723,
+            "height": 608,
+            "id": 0,
+            "text": "Pizza toppings \nPizza toppings \n□ Bacon \n■ Bacon \n□ Brie \n□ Brie \n□ Extra cheese □ Extra cheese \nFeta Feta \n□ Ham \n□ Ham \n□ Mushrooms \n□ Mushrooms \nOnion \nく Onions",
+            "width": 1460,
+            "words": [
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 228,
+                                "y": 75
+                            },
+                            {
+                                "x": 306,
+                                "y": 75
+                            },
+                            {
+                                "x": 306,
+                                "y": 102
+                            },
+                            {
+                                "x": 228,
+                                "y": 102
+                            }
+                        ]
+                    },
+                    "confidence": 0.9991,
+                    "id": 0,
+                    "text": "Pizza"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 313,
+                                "y": 76
+                            },
+                            {
+                                "x": 441,
+                                "y": 76
+                            },
+                            {
+                                "x": 441,
+                                "y": 107
+                            },
+                            {
+                                "x": 313,
+                                "y": 107
+                            }
+                        ]
+                    },
+                    "confidence": 0.9963,
+                    "id": 1,
+                    "text": "toppings"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 989,
+                                "y": 107
+                            },
+                            {
+                                "x": 1050,
+                                "y": 108
+                            },
+                            {
+                                "x": 1049,
+                                "y": 130
+                            },
+                            {
+                                "x": 988,
+                                "y": 129
+                            }
+                        ]
+                    },
+                    "confidence": 0.9989,
+                    "id": 2,
+                    "text": "Pizza"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 1055,
+                                "y": 108
+                            },
+                            {
+                                "x": 1159,
+                                "y": 108
+                            },
+                            {
+                                "x": 1159,
+                                "y": 134
+                            },
+                            {
+                                "x": 1055,
+                                "y": 134
+                            }
+                        ]
+                    },
+                    "confidence": 0.992,
+                    "id": 3,
+                    "text": "toppings"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 236,
+                                "y": 135
+                            },
+                            {
+                                "x": 270,
+                                "y": 136
+                            },
+                            {
+                                "x": 269,
+                                "y": 171
+                            },
+                            {
+                                "x": 234,
+                                "y": 169
+                            }
+                        ]
+                    },
+                    "confidence": 0.9312,
+                    "id": 4,
+                    "text": "□"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 293,
+                                "y": 140
+                            },
+                            {
+                                "x": 383,
+                                "y": 139
+                            },
+                            {
+                                "x": 383,
+                                "y": 166
+                            },
+                            {
+                                "x": 293,
+                                "y": 166
+                            }
+                        ]
+                    },
+                    "confidence": 0.9975,
+                    "id": 5,
+                    "text": "Bacon"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 1002,
+                                "y": 166
+                            },
+                            {
+                                "x": 1023,
+                                "y": 167
+                            },
+                            {
+                                "x": 1022,
+                                "y": 189
+                            },
+                            {
+                                "x": 1002,
+                                "y": 189
+                            }
+                        ]
+                    },
+                    "confidence": 0.7269,
+                    "id": 6,
+                    "text": "■"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 1041,
+                                "y": 165
+                            },
+                            {
+                                "x": 1116,
+                                "y": 165
+                            },
+                            {
+                                "x": 1116,
+                                "y": 188
+                            },
+                            {
+                                "x": 1041,
+                                "y": 188
+                            }
+                        ]
+                    },
+                    "confidence": 0.9944,
+                    "id": 7,
+                    "text": "Bacon"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 235,
+                                "y": 191
+                            },
+                            {
+                                "x": 270,
+                                "y": 192
+                            },
+                            {
+                                "x": 269,
+                                "y": 229
+                            },
+                            {
+                                "x": 234,
+                                "y": 228
+                            }
+                        ]
+                    },
+                    "confidence": 0.9565,
+                    "id": 8,
+                    "text": "□"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 293,
+                                "y": 197
+                            },
+                            {
+                                "x": 349,
+                                "y": 198
+                            },
+                            {
+                                "x": 348,
+                                "y": 224
+                            },
+                            {
+                                "x": 292,
+                                "y": 223
+                            }
+                        ]
+                    },
+                    "confidence": 0.998,
+                    "id": 9,
+                    "text": "Brie"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 1000,
+                                "y": 213
+                            },
+                            {
+                                "x": 1025,
+                                "y": 213
+                            },
+                            {
+                                "x": 1025,
+                                "y": 241
+                            },
+                            {
+                                "x": 1000,
+                                "y": 241
+                            }
+                        ]
+                    },
+                    "confidence": 0.9652,
+                    "id": 10,
+                    "text": "□"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 1040,
+                                "y": 215
+                            },
+                            {
+                                "x": 1089,
+                                "y": 215
+                            },
+                            {
+                                "x": 1089,
+                                "y": 237
+                            },
+                            {
+                                "x": 1040,
+                                "y": 237
+                            }
+                        ]
+                    },
+                    "confidence": 0.9958,
+                    "id": 11,
+                    "text": "Brie"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 235,
+                                "y": 249
+                            },
+                            {
+                                "x": 270,
+                                "y": 250
+                            },
+                            {
+                                "x": 269,
+                                "y": 286
+                            },
+                            {
+                                "x": 235,
+                                "y": 285
+                            }
+                        ]
+                    },
+                    "confidence": 0.9479,
+                    "id": 12,
+                    "text": "□"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 293,
+                                "y": 255
+                            },
+                            {
+                                "x": 365,
+                                "y": 256
+                            },
+                            {
+                                "x": 365,
+                                "y": 282
+                            },
+                            {
+                                "x": 292,
+                                "y": 281
+                            }
+                        ]
+                    },
+                    "confidence": 0.9987,
+                    "id": 13,
+                    "text": "Extra"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 374,
+                                "y": 254
+                            },
+                            {
+                                "x": 478,
+                                "y": 255
+                            },
+                            {
+                                "x": 477,
+                                "y": 282
+                            },
+                            {
+                                "x": 374,
+                                "y": 281
+                            }
+                        ]
+                    },
+                    "confidence": 0.999,
+                    "id": 14,
+                    "text": "cheese"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 1000,
+                                "y": 261
+                            },
+                            {
+                                "x": 1025,
+                                "y": 261
+                            },
+                            {
+                                "x": 1025,
+                                "y": 288
+                            },
+                            {
+                                "x": 1000,
+                                "y": 288
+                            }
+                        ]
+                    },
+                    "confidence": 0.9777,
+                    "id": 15,
+                    "text": "□"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 1040,
+                                "y": 264
+                            },
+                            {
+                                "x": 1101,
+                                "y": 264
+                            },
+                            {
+                                "x": 1101,
+                                "y": 285
+                            },
+                            {
+                                "x": 1040,
+                                "y": 285
+                            }
+                        ]
+                    },
+                    "confidence": 0.9962,
+                    "id": 16,
+                    "text": "Extra"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 1108,
+                                "y": 263
+                            },
+                            {
+                                "x": 1196,
+                                "y": 265
+                            },
+                            {
+                                "x": 1195,
+                                "y": 287
+                            },
+                            {
+                                "x": 1107,
+                                "y": 285
+                            }
+                        ]
+                    },
+                    "confidence": 0.9974,
+                    "id": 17,
+                    "text": "cheese"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 293,
+                                "y": 313
+                            },
+                            {
+                                "x": 354,
+                                "y": 313
+                            },
+                            {
+                                "x": 354,
+                                "y": 339
+                            },
+                            {
+                                "x": 293,
+                                "y": 339
+                            }
+                        ]
+                    },
+                    "confidence": 0.9978,
+                    "id": 18,
+                    "text": "Feta"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 1040,
+                                "y": 311
+                            },
+                            {
+                                "x": 1092,
+                                "y": 312
+                            },
+                            {
+                                "x": 1092,
+                                "y": 333
+                            },
+                            {
+                                "x": 1040,
+                                "y": 333
+                            }
+                        ]
+                    },
+                    "confidence": 0.9969,
+                    "id": 19,
+                    "text": "Feta"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 1000,
+                                "y": 358
+                            },
+                            {
+                                "x": 1025,
+                                "y": 358
+                            },
+                            {
+                                "x": 1025,
+                                "y": 385
+                            },
+                            {
+                                "x": 1000,
+                                "y": 385
+                            }
+                        ]
+                    },
+                    "confidence": 0.9747,
+                    "id": 20,
+                    "text": "□"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 1041,
+                                "y": 359
+                            },
+                            {
+                                "x": 1095,
+                                "y": 359
+                            },
+                            {
+                                "x": 1095,
+                                "y": 381
+                            },
+                            {
+                                "x": 1041,
+                                "y": 381
+                            }
+                        ]
+                    },
+                    "confidence": 0.9948,
+                    "id": 21,
+                    "text": "Ham"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 235,
+                                "y": 366
+                            },
+                            {
+                                "x": 270,
+                                "y": 367
+                            },
+                            {
+                                "x": 269,
+                                "y": 403
+                            },
+                            {
+                                "x": 234,
+                                "y": 402
+                            }
+                        ]
+                    },
+                    "confidence": 0.9221,
+                    "id": 22,
+                    "text": "□"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 293,
+                                "y": 371
+                            },
+                            {
+                                "x": 359,
+                                "y": 371
+                            },
+                            {
+                                "x": 359,
+                                "y": 398
+                            },
+                            {
+                                "x": 293,
+                                "y": 398
+                            }
+                        ]
+                    },
+                    "confidence": 0.9956,
+                    "id": 23,
+                    "text": "Ham"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 1001,
+                                "y": 405
+                            },
+                            {
+                                "x": 1025,
+                                "y": 405
+                            },
+                            {
+                                "x": 1025,
+                                "y": 433
+                            },
+                            {
+                                "x": 1000,
+                                "y": 433
+                            }
+                        ]
+                    },
+                    "confidence": 0.9816,
+                    "id": 24,
+                    "text": "□"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 1041,
+                                "y": 406
+                            },
+                            {
+                                "x": 1177,
+                                "y": 408
+                            },
+                            {
+                                "x": 1177,
+                                "y": 430
+                            },
+                            {
+                                "x": 1041,
+                                "y": 429
+                            }
+                        ]
+                    },
+                    "confidence": 0.9955,
+                    "id": 25,
+                    "text": "Mushrooms"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 235,
+                                "y": 423
+                            },
+                            {
+                                "x": 270,
+                                "y": 424
+                            },
+                            {
+                                "x": 269,
+                                "y": 460
+                            },
+                            {
+                                "x": 235,
+                                "y": 459
+                            }
+                        ]
+                    },
+                    "confidence": 0.9531,
+                    "id": 26,
+                    "text": "□"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 293,
+                                "y": 427
+                            },
+                            {
+                                "x": 466,
+                                "y": 428
+                            },
+                            {
+                                "x": 465,
+                                "y": 456
+                            },
+                            {
+                                "x": 293,
+                                "y": 455
+                            }
+                        ]
+                    },
+                    "confidence": 0.9958,
+                    "id": 27,
+                    "text": "Mushrooms"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 1040,
+                                "y": 455
+                            },
+                            {
+                                "x": 1110,
+                                "y": 455
+                            },
+                            {
+                                "x": 1110,
+                                "y": 477
+                            },
+                            {
+                                "x": 1040,
+                                "y": 477
+                            }
+                        ]
+                    },
+                    "confidence": 0.9966,
+                    "id": 28,
+                    "text": "Onion"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 239,
+                                "y": 490
+                            },
+                            {
+                                "x": 264,
+                                "y": 491
+                            },
+                            {
+                                "x": 263,
+                                "y": 513
+                            },
+                            {
+                                "x": 237,
+                                "y": 511
+                            }
+                        ]
+                    },
+                    "confidence": 0.8687,
+                    "id": 29,
+                    "text": "く"
+                },
+                {
+                    "boundingBox": {
+                        "vertices": [
+                            {
+                                "x": 293,
+                                "y": 487
+                            },
+                            {
+                                "x": 394,
+                                "y": 487
+                            },
+                            {
+                                "x": 394,
+                                "y": 514
+                            },
+                            {
+                                "x": 293,
+                                "y": 514
+                            }
+                        ]
+                    },
+                    "confidence": 0.9984,
+                    "id": 30,
+                    "text": "Onions"
+                }
+            ]
+        }
+    ],
+    "stored": false,
+    "text": "Pizza toppings \nPizza toppings \n□ Bacon \n■ Bacon \n□ Brie \n□ Brie \n□ Extra cheese □ Extra cheese \nFeta Feta \n□ Ham \n□ Ham \n□ Mushrooms \n□ Mushrooms \nOnion \nく Onions"
+}
