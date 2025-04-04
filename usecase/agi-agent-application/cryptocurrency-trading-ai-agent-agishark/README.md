@@ -21,7 +21,8 @@ This project was developed as part of the AGI Agent Application Hackathon. It's 
   - Large-volume investment guidance management through PDF and RAG documents
 
 ### 🖼️ Demo / Screenshots
-🎬 [Watch Demo Video on YouTube](https://youtu.be/P0XjDOIf6Fg?si=Luczh8t9vt0eWYJi)
+[![AGI Shark Demo Video](https://img.youtube.com/vi/P0XjDOIf6Fg/0.jpg)](https://youtu.be/P0XjDOIf6Fg?si=Luczh8t9vt0eWYJi)
+*👆 Click on the image above to watch the demo video*
 
 ### 🧩 Tech Stack
 - **Frontend**: Streamlit
