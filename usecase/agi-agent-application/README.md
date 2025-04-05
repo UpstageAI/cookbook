@@ -13,13 +13,15 @@ It is designed for use in **clinical settings**, integrating external terminolog
 
 ### 🚀 Key Features
 
-✅ Real-time EMR Integration: Enables real-time standardization of clinical notes directly connected to EMR systems, helping to break down data silos.
-✅ Batch File Standardization: Supports one-click standardization of existing unstructured report archives.
+- ✅ Real-time EMR Integration: Enables real-time standardization of clinical notes directly connected to EMR systems, helping to break down data silos.
+- ✅ Batch File Standardization: Supports one-click standardization of existing unstructured report archives.
 
 ### 🖼️ Demo / Screenshots
 
 ![image](https://github.com/user-attachments/assets/e155609e-34f8-4828-8143-8c9422f2ee0d)
-[Optional demo video link: e.g., YouTube]
+
+- [Prototype](https://rad-rag-app.vercel.app/)
+- [Demo Video](https://drive.google.com/file/d/1ulzjprzLcCkq0t8Q8k0qvej3JKBOl5ug/view?usp=sharing)
 
 ### 🧩 Tech Stack
 
