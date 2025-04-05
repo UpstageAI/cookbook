@@ -1,0 +1,14 @@
+[theme]
+
+base = "light"
+
+primaryColor = "#805CFB" 
+
+linkColor = "#805CFB" 
+
+baseRadius = "1.5rem"
+
+# The color of the border around elements.
+borderColor = "#805CFB" 
+
+
