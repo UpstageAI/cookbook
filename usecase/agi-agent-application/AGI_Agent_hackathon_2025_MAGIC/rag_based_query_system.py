@@ -103,8 +103,8 @@ def main(api_key: str, health_status: Dict, user_query: str):
     # Initialize the RAG system
     rag_system = HealthRAGSystem(
         api_key=api_key,
-        faiss_index_path="every_faiss_index.bin",
-        metadata_csv="RAG_every.csv"
+        faiss_index_path="data/every_faiss_index.bin",
+        metadata_csv="data/RAG_every.csv"
     )
     
     # Load health status
