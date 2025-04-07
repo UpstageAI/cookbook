@@ -1,0 +1,13 @@
+{
+  "entryPoints": ["lib"],
+  "out": "docs",
+  "exclude": ["**/*.test.ts", "**/*.spec.ts"],
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "hideGenerator": true,
+  "theme": "default",
+  "name": "DP S3 Connector Documentation",
+  "includeVersion": true,
+  "plugin": ["typedoc-plugin-markdown"],
+  "readme": "README.md"
+} 
