@@ -1,0 +1,32 @@
+{
+  "name": "dp-s3-connector",
+  "version": "0.1.0",
+  "bin": {
+    "dp-s3-connector": "bin/app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
+    "docs": "typedoc --out docs src",
+    "docs:watch": "typedoc --watch --out docs src"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "22.7.9",
+    "aws-cdk": "2.1006.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typedoc": "^0.28.1",
+    "typedoc-plugin-markdown": "^3.13.0",
+    "typescript": "~5.6.3"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.185.0",
+    "constructs": "^10.0.0",
+    "dotenv": "^16.4.7",
+    "source-map-support": "^0.5.21"
+  }
+}
