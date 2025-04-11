@@ -5,7 +5,7 @@
 # 🛠️ [Project Title]
 
 ### 📌 Overview
-This project was developed as part of the AGI Agent Application Hackathon. It aims to solve [describe the problem or goal].
+This project was developed as part of the Document Based Application Hackathon. It aims to solve [describe the problem or goal].
 
 ### 🚀 Key Features
 - ✅ **Feature 1**: [Describe feature]
