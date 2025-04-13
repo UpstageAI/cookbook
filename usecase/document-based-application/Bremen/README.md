@@ -13,8 +13,9 @@ This project was developed as part of the AGI Agent Application Hackathon. It ai
 - ✅ **Interactive Revision Assistant**: Uses Perplexity API to suggest improvements and map extracted summaries to original coordinates.
 
 ### 🖼️ Demo / Screenshots
-![screenshot](./screenshot.png)  
-[Optional demo video link: e.g., YouTube]
+![screenshot](./1.png) 
+![screenshot](./2.png) 
+![youtube](https://youtu.be/Eb8e1YXw-F4) 
 
 ### 🧩 Tech Stack
 - **Frontend**: Flutter Web
