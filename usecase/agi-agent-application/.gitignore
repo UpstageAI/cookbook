@@ -1,0 +1,63 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/frontend/node_modules
+
+# next.js
+/.next/
+/frontend/.next/
+/out/
+
+# production
+/build
+/frontend/build
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/.pnpm-debug.log*
+
+# env files
+.env*
+/frontend/.env*
+
+# vercel
+.vercel
+/frontend/.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+/frontend/*.tsbuildinfo
+/frontend/next-env.d.ts
+
+# api key
+/backend/api_key.yaml
+/frontend/api_key.yaml
+
+# env
+/backend/.env
+/backend/conf.d
+/frontend/.env
+/backend/.env.local
+/frontend/.env.local
+# backend
+/backend/pycache
+/backend/__pycache__
+/backend/uploads
+/backend/uploads/*
+/backend/uploads/pdf
+/backend/uploads/pdf/*
+
+__pycache__/
+/backend/datasets/*
+!/backend/datasets/.gitkeep
+!/backend/datasets/README.md
+/backend/src/uploads/
+/backend/conf.d/config.yaml
