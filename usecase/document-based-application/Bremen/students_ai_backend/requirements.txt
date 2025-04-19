@@ -1,0 +1,13 @@
+Flask
+sentence-transformers
+pymysql
+scikit-learn
+numpy
+Flask-MySQL
+openai
+cryptography
+flask_cors
+dotenv
+pandas
+bs4
+openpyxl
