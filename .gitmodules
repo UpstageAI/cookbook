@@ -1,0 +1,3 @@
+[submodule "usecase/agi-agent-application/ODE"]
+	path = usecase/agi-agent-application/ODE
+	url = https://github.com/bindingflare/agi_hackathon-team_ODE
