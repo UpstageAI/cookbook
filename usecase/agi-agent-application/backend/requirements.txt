@@ -2,7 +2,7 @@
 
 # Flask & Server
 flask==2.2.2
-flask-cors==5.0.1
+flask-cors==6.0.0
 gunicorn==20.1.0
 itsdangerous==2.1.2 ; python_version >= '3.7'
 jinja2==3.1.2 ; python_version >= '3.7'
