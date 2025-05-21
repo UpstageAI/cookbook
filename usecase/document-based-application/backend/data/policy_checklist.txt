@@ -1,0 +1,9 @@
+- Initial upfront payment must not exceed 30% of the total contract value
+- Remaining payments must be tied explicitly to deliverables or milestones
+- Maximum initial contract duration: 24 months
+- No auto-renewals; explicit written renewal required at least 90 days prior to contract expiration
+- Vendor must maintain a liability insurance policy of at least $1,000,000 USD coverage for the duration of the contract
+- Contract must include clauses prohibiting reverse engineering and unauthorized disclosure of confidential information
+- Vendor must comply with NorthBeam Corporation's data protection standards (ISO 27001 compliant)
+- Contracts must specify mediation as the first step of dispute resolution
+- Arbitration, if needed, must take place in New York State under American Arbitration Association (AAA) rules
