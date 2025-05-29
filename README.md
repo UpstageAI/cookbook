@@ -39,13 +39,12 @@ Disclaimer: The views and opinions expressed in community and partner examples d
 
 | API | Description | Example usage |
 | --- | --- | --- |
-| Chat | Build assistants using Solar Mini Chat. | [Link](https://developers.upstage.ai/docs/apis/chat) |
-| Text Embedding | Embed strings to vectors. | [Link](https://developers.upstage.ai/docs/apis/embeddings) |
-| Document Parse | Serialize documents with tables and figures. | [Link](https://developers.upstage.ai/docs/apis/document-parse) |
-| Translation | Context-aware translation that leverages previous dialogues to ensure unmatched coherence and continuity in your conversations. | [Link](https://developers.upstage.ai/docs/apis/translation) | 
-| Groundedness Check | Verify groundedness of assistant's response. | [Link](https://developers.upstage.ai/docs/apis/groundedness-check) |
-| Key Information Extraction | Extract key information from target documents. | [Link](https://developers.upstage.ai/docs/apis/extraction) | 
-| Document OCR | Extract all text from any document. | [Link](https://developers.upstage.ai/docs/apis/document-ocr) | 
+| Chat | Build assistants using Solar Mini Chat. | [Link](https://console.upstage.ai/docs/capabilities/chat) |
+| Document Parse | Serialize documents with tables and figures. | [Link](https://console.upstage.ai/docs/capabilities/document-digitization/document-parsing) |
+| Document OCR | Extract all text from any document. | [Link](https://console.upstage.ai/docs/capabilities/document-digitization/document-ocr) | 
+| Information Extraction | Extract key information from target documents. | [Link](https://console.upstage.ai/docs/capabilities/information-extraction) | 
+| Embedding | Embed strings to vectors. | [Link](https://console.upstage.ai/docs/capabilities/embeddings) |
+| Groundedness Check | Verify groundedness of assistant's response. | [Link](https://console.upstage.ai/docs/capabilities/groundedness-checking) |
 
 For more information, visit https://console.upstage.ai
 
