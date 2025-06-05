@@ -15,7 +15,7 @@ def extract_conditions(prompt):
     프롬프트: "{prompt}"
     """
     client = OpenAI(
-        api_key="up_XA8y5rqH0YSVI722edRwzXn9agOQz",
+        api_key="up_XXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         base_url="https://api.upstage.ai/v1"
     )
     
