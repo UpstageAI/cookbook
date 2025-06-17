@@ -73,7 +73,7 @@ pillow==11.1.0
 pingouin==0.5.5
 platformdirs==4.3.7
 prompt_toolkit==3.0.50
-protobuf==5.29.4
+protobuf==5.29.5
 psutil==7.0.0
 ptyprocess==0.7.0
 pure_eval==0.2.3
