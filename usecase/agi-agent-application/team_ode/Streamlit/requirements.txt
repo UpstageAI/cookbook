@@ -1,0 +1,7 @@
+langchain==0.3.22
+langchain_upstage==0.6.0
+openai==1.70.0
+pandas==2.2.3
+Requests==2.32.3
+streamlit==1.44.1
+python-dotenv
