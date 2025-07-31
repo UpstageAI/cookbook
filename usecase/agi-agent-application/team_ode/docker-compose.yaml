@@ -1,0 +1,111 @@
+version: '3.9'
+
+services:
+  streamlit-app:
+    build:
+      context: ./Streamlit
+    container_name: streamlit-app
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./Streamlit:/app
+      - streamlit_data:/app/data
+    environment:
+      - UPSTAGE_API_KEY
+      - OPENAI_API_KEY
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+    restart: unless-stopped
+    depends_on:
+      fastapi-app:
+        condition: service_healthy
+      pdfvalidator-app:
+        condition: service_healthy
+    networks:
+      - app-network
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+  
+  fastapi-app:
+    build:
+      context: ./Chatbot
+    container_name: fastapi-app
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./Chatbot:/app
+      - chatbot_data:/app/data
+    environment:
+      - UPSTAGE_API_KEY
+      - UPSTAGE_EMBEDDING_KEY
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 1G
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 40s
+    restart: unless-stopped
+    networks:
+      - app-network
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+  
+  pdfvalidator-app:
+    build:
+      context: ./PDFValidator
+    container_name: pdfvalidator-app
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./PDFValidator:/app
+      - pdf_data:/app/data
+    environment:
+      - UPSTAGE_API_KEY
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 2G
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8001/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 40s
+    restart: unless-stopped
+    networks:
+      - app-network
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  streamlit_data:
+  chatbot_data:
+  pdf_data:
