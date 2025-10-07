@@ -50,7 +50,7 @@ kiwisolver==1.4.7
 langchain==0.3.21
 langchain-core==0.3.49
 langchain-openai==0.3.11
-langchain-text-splitters==0.3.7
+langchain-text-splitters==1.0.0a1
 langchain-upstage==0.6.0
 langsmith==0.3.21
 MarkupSafe==3.0.2
