@@ -1,0 +1,65 @@
+name: Deploy Frontend to S3 and CloudFront
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/frontend/**'
+      - '.github/workflows/deploy-frontend.yml'
+
+env:
+  AWS_REGION: ap-northeast-2
+  S3_BUCKET: ups-t3-frontend-1763878138
+  CLOUDFRONT_DISTRIBUTION_ID: E1RLDWF8ZOYKW1
+
+jobs:
+  deploy:
+    name: Deploy Frontend
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: src/frontend/package-lock.json
+
+      - name: Install dependencies
+        run: |
+          cd src/frontend
+          npm ci --legacy-peer-deps
+
+      - name: Build application
+        env:
+          NEXT_PUBLIC_API_URL: https://d31ad140yvex7c.cloudfront.net
+        run: |
+          cd src/frontend
+          npm run build
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Deploy to S3
+        run: |
+          cd src/frontend
+          aws s3 sync out/ s3://${{ env.S3_BUCKET }} --delete --region ${{ env.AWS_REGION }}
+
+      - name: Invalidate CloudFront cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id ${{ env.CLOUDFRONT_DISTRIBUTION_ID }} \
+            --paths "/*"
+
+      - name: Deployment success
+        run: |
+          echo "✅ Frontend deployed successfully!"
+          echo "URL: https://d31ad140yvex7c.cloudfront.net"
