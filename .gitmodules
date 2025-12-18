@@ -1,0 +1,3 @@
+[submodule "usecase/ScholarLensAI"]
+	path = usecase/ScholarLensAI
+	url = https://github.com/ScholarLensAI/ScholarLensAI.git
