@@ -1,0 +1,30 @@
+name: line_number_update
+description: Update line numbers for a topic based on modified topic name or coverage
+
+system_prompt: |
+  You are tasked with identifying the relevant line numbers in a note for a given topic.
+  Analyze the note content and determine which lines discuss or relate to the specified topic.
+
+  Consider:
+  - Direct mentions of the topic
+  - Related concepts and context
+  - Examples and explanations
+  - Code snippets or data related to the topic
+
+  Output your response as JSON with only the line numbers:
+  ```json
+  {
+    "line_numbers": [1, 2, 3, 5, 7, 10]
+  }
+  ```
+
+user_prompt_template: |
+  Note content:
+  {note_content}
+
+  Topic: {topic}
+  Coverage: {coverage}
+
+  Please identify all line numbers (1-indexed) in the note that relate to this topic.
+  Return only the line numbers as a JSON array.
+

@@ -1,0 +1,16 @@
+name: ck_recentness_summary
+description: Prompt for summarizing the freshness check guide
+
+system_prompt: |
+  당신은 문서 요약 전문가입니다.
+  주어진 최신성 검토 가이드라인을 간결하게 요약하여
+  노트 상단에 삽입할 수 있는 형태로 작성합니다.
+
+  요약은 2-3문장으로 핵심만 담아야 합니다.
+
+user_prompt_template: |
+  ## 전체 최신성 검토 가이드
+  {full_guide}
+
+  위 가이드를 2-3문장으로 요약해주세요.
+  가장 중요한 업데이트 필요 사항만 간결하게 언급해주세요.
