@@ -1,0 +1,14 @@
+langchain-chroma==0.2.2
+langchain-core==0.2.43
+langchain-upstage==0.1.7
+openai==1.109.1
+python-dotenv==1.2.1
+transformers==4.57.1
+sentence-transformers==5.1.2
+pyyaml==6.0.3
+streamlit==1.51.0
+httpx==0.28.1
+markdown==3.10
+tavily-python==0.7.13
+pypandoc==1.16.2
+wikipedia==1.4.0
