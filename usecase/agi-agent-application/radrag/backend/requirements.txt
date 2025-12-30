@@ -7,7 +7,7 @@ gunicorn==20.1.0
 itsdangerous==2.1.2 ; python_version >= '3.7'
 jinja2==3.1.2 ; python_version >= '3.7'
 markupsafe==2.1.1 ; python_version >= '3.7'
-werkzeug==3.0.6 ; python_version >= '3.7'
+werkzeug==3.1.4 ; python_version >= '3.7'
 
 # Packaging utilities
 setuptools==65.6.3 ; python_version >= '3.7'
