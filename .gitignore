@@ -4,9 +4,7 @@
 .env
 .ipynb_checkpoints
 .venv
-.web
 __pycache__/
-assets/external/
 local_cache
 poetry.lock
 pyproject.toml
