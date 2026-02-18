@@ -54,6 +54,6 @@ For more information, visit https://console.upstage.ai
 | Notebook | Description |
 | --- | --- |
 | [Solar-Full-Stack LLM-101](https://github.com/UpstageAI/cookbook/blob/main/Solar-Fullstack-LLM-101) | This notebooks includes a comprehensive suite of exercises designed to equip users with the skills needed to effectively utilize large language models (LLMs) across a variety of applications. |
-| [Upstage features](https://github.com/UpstageAI/cookbook/blob/main/upstage.ipynb) | This notebook can be used to experiment with Upstage's APIs.  |
-| [Function calling](https://github.com/UpstageAI/cookbook/blob/main/function_calling.ipynb) | This notebook provides the most basic way to use function calling. |
-| [LlamaIndex RAG](https://github.com/UpstageAI/cookbook/blob/main/llamaindex_rag.ipynb) | This notebook provides a comprehensive way to build a Retrieval-Augmented-Generation using the llama-index Upstage integration package. |
+| [Upstage features](https://github.com/UpstageAI/cookbook/blob/main/recipes/upstage.ipynb) | This notebook can be used to experiment with Upstage's APIs.  |
+| [Function calling](https://github.com/UpstageAI/cookbook/blob/main/recipes/function_calling.ipynb) | This notebook provides the most basic way to use function calling. |
+| [LlamaIndex RAG](https://github.com/UpstageAI/cookbook/blob/main/recipes/llamaindex_rag.ipynb) | This notebook provides a comprehensive way to build a Retrieval-Augmented-Generation using the llama-index Upstage integration package. |
