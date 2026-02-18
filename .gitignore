@@ -8,3 +8,6 @@ __pycache__/
 local_cache
 poetry.lock
 pyproject.toml
+cdk.context.json
+cdk.out/
+node_modules/
