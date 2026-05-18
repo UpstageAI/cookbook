@@ -1,0 +1,20 @@
+name: info_extract_template
+description: Template for extracting freshness check keywords and queries from a note
+
+schema: |
+  {
+    "type": "object",
+    "properties": {
+      "info_keyword": {
+        "type": "array",
+        "items": {"type": "string"},
+        "description": "Wikipedia 검색에 사용할 핵심 개념 키워드 목록. 문서의 주요 주제, 기술, 개념을 대표하는 단어를 추출합니다. 예: 'Machine Learning', 'Transformer', 'Python'"
+      },
+      "info_query": {
+        "type": "array",
+        "items": {"type": "string"},
+        "description": "Tavily 웹 검색에 사용할 구체적인 검색 쿼리 목록. 최신 정보, 업데이트, 변경사항을 확인하기 위한 검색어를 작성합니다. 예: 'GPT-4 latest updates 2024', 'Python 3.12 new features'"
+      }
+    },
+    "required": ["info_keyword", "info_query"]
+  }
