@@ -3,7 +3,7 @@
 
 This cookbook aims to highlight innovative use cases and outputs created by leveraging Upstage Solar and Document AI’s capabilities. We aim to inspire others by showcasing the versatility and excellence of Upstage features across various domains. The Upstage cookbook is open to the community. If you have an interesting idea for using APIs, spot a typo, or want to add or improve a guide, feel free to contribute!
 
-### How to use?
+### How to use? 
 
 Get an API key from Upstage console to try examples in the cookbook. Set the environment variable `UPSTAGE_API_KEY` with your key, or create an `.env` file with the key.
 
