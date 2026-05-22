@@ -1,0 +1,125 @@
+{
+    "trade_knowledge": {
+      "hs_codes": {
+        "description": "HS Code는 국제 표준화된 명칭 및 번호 체계로, 수출입 상품 분류에 사용됩니다.",
+        "format": "6자리 기본 코드에 국가별로 2~4자리 추가 코드",
+        "examples": {
+          "850650": "리튬 이온 배터리",
+          "870323": "1500cc 이상 3000cc 이하 승용차"
+        }
+      },
+      "incoterms": {
+        "EXW": "Ex Works - 판매자가 자사 시설에서 상품을 인도함.",
+        "FOB": "Free on Board - 판매자가 지정된 선박에 상품을 선적함.",
+        "CIF": "Cost, Insurance and Freight - 판매자가 지정항까지 운임 및 보험료를 부담함.",
+        "DDP": "Delivered Duty Paid - 판매자가 수입국의 지정 장소까지 모든 비용과 관세를 부담함."
+      },
+      "customs_procedures": {
+        "korea_import": [
+          "1. 수입 신고서 및 관련 서류 준비",
+          "2. 한국관세청 전자신고 시스템 제출",
+          "3. 관세 및 부가세 납부",
+          "4. 관세청 검역 및 검사 (필요 시)",
+          "5. 통관 완료 후 화물 인수"
+        ],
+        "korea_export": [
+          "1. 수출 등록 및 자격 확인",
+          "2. 수출 서류(상업송장, 포장명세서 등) 준비",
+          "3. 한국관세청 전자신고 제출",
+          "4. 수출 검역 및 검사",
+          "5. 화물 인도 및 선적"
+        ],
+        "usa_import": [
+          "1. 수입 신고서(Entry Filing) 준비",
+          "2. 미국 세관 및 국경보호청(CBP)에 신고",
+          "3. 관세 및 세금 납부",
+          "4. 검역 및 물리적 검사",
+          "5. 통관 완료 후 화물 인수"
+        ],
+        "usa_export": [
+          "1. 수출 관련 서류(상업송장, 선하증권 등) 준비",
+          "2. 미국 CBP 및 관련 기관 신고",
+          "3. export control(ITAR, EAR) 준수 확인",
+          "4. 수출 검증 및 검사",
+          "5. 화물 인도 및 선적"
+        ]
+      },
+      "trade_documentation": {
+        "commercial_invoice": "판매 내역, 구매자/판매자 정보, 상품 설명, 가격 및 결제 조건이 명시된 문서.",
+        "bill_of_lading": "운송인이 화물 인수를 증명하기 위해 발행하는 법적 문서.",
+        "packing_list": "화물의 포장 상태, 무게, 치수, 내역 등이 상세히 기재된 목록.",
+        "certificate_of_origin": "상품의 원산지를 증명하는 문서로, 통관 시 필요."
+      },
+      "payment_terms": {
+        "letter_of_credit": "은행이 발행하는 신용장으로, 조건 충족 시 판매자에게 결제를 보증함.",
+        "documentary_collection": "운송 서류와 교환하여 판매자의 은행이 구매자로부터 결제를 수집하는 방식.",
+        "open_account": "상품 인도 후 일정 기간 후에 결제하는 방식으로, 신뢰관계가 형성된 거래에서 주로 사용됨."
+      },
+      "trade_finance": {
+        "factoring": "채권을 할인하여 매각함으로써 현금 유동성을 개선하는 금융 기법.",
+        "forfaiting": "회수 위험 없이 수출채권을 할인 매입하는 금융 방식.",
+        "trade_credit": "공급업체가 상품 인도 후 결제 기한을 연장해 주는 신용 거래."
+      },
+      "tariffs": {
+        "description": "수출입 상품에 부과되는 관세로, 무역 규제 및 국가 수입 증대 목적으로 사용됨.",
+        "types": {
+          "ad_valorem": "상품 가치의 일정 비율을 기준으로 부과되는 관세.",
+          "specific": "상품 단위당 고정 금액으로 부과되는 관세.",
+          "compound": "비율과 고정 금액을 함께 적용하는 복합 관세."
+        }
+      },
+      "trade_regulations": {
+        "description": "국제 무역을 규율하는 규칙 및 기준으로, 안전성, 공정 거래 및 규정 준수를 보장함.",
+        "key_institutions": [
+          "World Trade Organization (WTO)",
+          "International Chamber of Commerce (ICC)"
+        ]
+      },
+      "logistics": {
+        "freight_forwarder": "제조업체와 시장 간 상품 운송을 조직하는 물류 대행업체.",
+        "3PL": "창고 보관, 유통 등 외부 물류 서비스를 제공하는 제3자 물류 업체."
+      },
+      "trade_agreements": {
+        "description": "국가 간 관세, 할당량 등의 무역 장벽을 완화하기 위한 양자 또는 다자간 협정.",
+        "examples": [
+          "KORUS FTA (한미 FTA)",
+          "USMCA (미국-멕시코-캐나다 협정)",
+          "CPTPP (포괄적·점진적 환태평양 동반자 협정)"
+        ]
+      },
+      "export_controls": {
+        "description": "국가 안보 및 외교 정책을 위해 민감한 상품, 기술 및 정보의 수출을 통제하는 규제.",
+        "key_regulations": [
+          "Export Administration Regulations (EAR)",
+          "International Traffic in Arms Regulations (ITAR)"
+        ]
+      },
+      "risk_management": {
+        "description": "국제 무역에서 환율 변동, 정치적 불안정, 운송 지연 등의 위험을 완화하기 위한 전략과 도구.",
+        "methods": [
+          "보험 가입",
+          "환위험 헤징",
+          "시장 다변화"
+        ]
+      },
+      "country_specific": {
+        "korea": {
+          "customs_authority": "한국관세청(Korea Customs Service, KCS)",
+          "trade_agreements": [
+            "KORUS FTA",
+            "FTA 체결국 간 추가 협정"
+          ],
+          "notes": "한국은 전자통관 시스템을 통한 신고 및 통관 절차가 활발하며, 원산지 증명서 등 특정 서류 요구가 있음."
+        },
+        "usa": {
+          "customs_authority": "미국 세관 및 국경보호청(U.S. Customs and Border Protection, CBP)",
+          "trade_agreements": [
+            "USMCA",
+            "KORUS FTA"
+          ],
+          "notes": "미국은 엄격한 수출 통제(ITAR, EAR)와 검역 절차를 적용하며, 반덤핑 관세 등 특별 관세가 적용될 수 있음."
+        }
+      }
+    }
+  }
+  
