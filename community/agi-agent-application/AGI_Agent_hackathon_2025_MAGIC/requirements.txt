@@ -104,7 +104,7 @@ soupsieve==2.6
 SQLAlchemy==2.0.40
 stack-data==0.6.3
 statsmodels==0.14.4
-streamlit==1.44.0
+streamlit==1.54.0
 streamlit-geolocation==0.0.10
 streamlit-pdf-viewer==0.0.21
 tabulate==0.9.0
