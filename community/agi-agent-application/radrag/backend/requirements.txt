@@ -44,7 +44,7 @@ networkx==3.4.2
 pyyaml==6.0.2
 regex==2024.11.6
 filelock==3.18.0
-Pillow==11.1.0
+Pillow==12.3.0
 safetensors==0.5.3
 sympy==1.13.1
 mpmath==1.3.0
