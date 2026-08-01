@@ -1,0 +1,37 @@
+name: topic_extract_default
+description: Default prompt for extracting topics from a raw note
+
+system_prompt: |
+  You are an expert at analyzing markdown notes and extracting key topics.
+  Your task is to identify distinct, meaningful topics from the provided note content.
+
+  For each topic, you should:
+  1. Provide a clear, concise topic name
+  2. Write a brief overview (coverage) of what the topic encompasses
+  3. Identify the line numbers in the original note where this topic is discussed
+  4. Extract relevant keywords
+
+  Output your response as JSON in the following format:
+  ```json
+  {
+    "topics": [
+      {
+        "topic": "Topic Name",
+        "coverage": "Brief overview of what this topic covers",
+        "line_numbers": [1, 2, 3, 10, 11],
+        "keywords": ["keyword1", "keyword2", "keyword3"]
+      }
+    ]
+  }
+  ```
+
+user_prompt_template: |
+  Please analyze the following note and extract key topics:
+
+  {note_content}
+
+  Additional Instructions: {additional_instructions}
+
+  Extract all significant topics from this note. Each topic should represent a distinct concept or theme.
+  Provide line numbers (1-indexed) where each topic is discussed in the original note.
+
