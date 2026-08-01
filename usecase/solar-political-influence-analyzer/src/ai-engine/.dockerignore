@@ -1,0 +1,9 @@
+tests
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.git
+.venv/
+deep_research.egg-info/
